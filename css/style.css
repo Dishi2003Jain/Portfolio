@@ -115,6 +115,8 @@ span{
     background-image: url(../image/e1424d64b5b36667aa15fe86f6424438.png) ;
     padding-top: 40px;
     padding-bottom: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
     transition-property: height, width;
      transition-duration: 2s;
     transition-timing-function: ease-in-out;
@@ -371,7 +373,7 @@ span{
     font-size: 18px;
 }
 } 
- @media (min-width :280px) and (max-width : 359px){
+ @media (min-width :260px) and (max-width : 359px){
     #nav ul li a{
           font-size: 13px;
           padding: 2px 5px;  
@@ -434,5 +436,170 @@ span{
 }
 #contact h1{
     font-size: 25px;
+}
+} 
+ @media (min-width :225px) and (max-width : 260px){
+    #nav ul li a{
+          font-size: 10px;
+          padding: 2px 5px;  
+
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 550px;
+    }
+    .hprimary{
+        font-size: 20px;
+    }
+    .hsecondary{
+        font-size: 30px;
+    }
+    .hthird{
+        font-size: 20px;
+    }
+  #home img{
+      width: 250px;
+      height: 350px;
+      margin-top: 30px;
+  }
+  #about p{
+    font-size: 15px;
+}
+#hobbies h1{
+    font-size: 30px;
+}
+#tech h1{
+    font-size: 30px;
+}
+#about h1{
+    font-size: 30px;
+}
+#about h2{
+    font-size: 22px;
+}
+.sk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sk1{
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.sk2{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sk1 img{
+    height: 60px;
+    width: 60px;
+}
+.sk2 img{
+    height: 60px;
+    width: 60px;
+}
+.hob p{
+    font-size: 18px;
+}
+.con p{
+    font-size: 15px;
+}
+#contact h1{
+    font-size: 25px;
+}
+#home img{
+    width: 150px;
+    height: 250px;
+}
+} 
+ @media (min-width :177px) and (max-width : 225px){
+    #nav ul li a{
+          font-size: 8px;
+          padding: 2px 3px;  
+
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 550px;
+    }
+    .hprimary{
+        font-size: 10px;
+    }
+    .hsecondary{
+        font-size: 20px;
+    }
+    .hthird{
+        font-size: 10px;
+    }
+  #home img{
+      width: 250px;
+      height: 350px;
+      margin-top: 30px;
+  }
+  #about p{
+    font-size: 15px;
+}
+#hobbies h1{
+    font-size: 20px;
+}
+#tech h1{
+    font-size: 20px;
+}
+#about h1{
+    font-size: 20px;
+}
+#about h2{
+    font-size: 18px;
+}
+.sk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sk1{
+    margin-bottom: 20px;
+    padding: 12px;
+}
+.sk2{
+    margin-top: 20px;
+    padding: 12px;
+}
+.hob p{
+    font-size: 18px;
+}
+.con p{
+    font-size: 10px;
+}
+#contact h1{
+    font-size: 20px;
+}
+#home img{
+    width: 150px;
+    height: 250px;
+}
+.sk1 img{
+    height: 40px;
+    width: 40px;
+}
+.sk2 img{
+    height: 40px;
+    width: 40px;
 }
 } 
