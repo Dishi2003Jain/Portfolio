@@ -1,0 +1,438 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: darkgray;
+    width: 100%;
+
+}
+#nav ul{
+  display: flex;
+   background-color: darkgray; 
+  padding: 16px;
+}
+
+#nav ul li{
+    list-style: none;
+    font-size: 25px;
+}
+#nav ul li a{
+    text-decoration: none;
+      padding: 2px 25px;  
+    color: black;
+}
+
+#nav ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+#home{
+   
+   display: flex;
+    flex-direction: row;
+    background: url(../image/Black-Website-Backgrounds-Wallpaper-Cave.jpg) no-repeat center center/cover;
+    height: 753px;
+    align-items: center;
+    justify-content: space-around;  
+    
+     
+}
+
+.hprimary{
+    font-size: 50px;
+}
+.hsecondary{
+    font-size: 60px;
+}
+.hthird{
+    font-size: 45px;
+}
+.intro h1, h2, h3{
+    color: white;
+}
+.intro h2{
+    color: white;
+}
+span{
+    color:darkkhaki;
+}
+#about{
+     background-image: url(../image/design-an-attractive-background-for-your-website.png) ; 
+     /* background-color:darkgrey; */
+     padding-top: 40px;
+     padding-bottom: 40px;
+}
+#about h1, p, h2{
+    text-align: center;
+    color:black;
+}
+.box{
+    /* border: 2px solid black; */
+    margin-top: 50px;
+
+}
+#about p{
+    font-size: 28px;
+}
+#about h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+#about h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+#tech{
+    background-image: url(../image/IMG_20210816_173603.jpg) ; 
+     padding-top: 30px;
+     padding-bottom: 100px;
+}
+.sk{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+#tech h1{
+    text-align: center;
+    font-size: 40px;
+}
+.sk1, .sk2{
+    border: 2px solid black;
+    border-radius: 20px;
+    /* height: 200px;
+    width: 200px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../image/e1424d64b5b36667aa15fe86f6424438.png) ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    transition-property: height, width;
+     transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.sk2{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.sk1:hover{
+  height: 160px;
+  width: 240px;
+}
+.sk2:hover{
+    height: 160px;
+    width: 120px;
+}
+#tech p{
+    color: blanchedalmond;
+    font-size: 20px;
+}
+#hobbies{
+
+    padding-bottom: 30px;
+    background-image: url(../image/PlbUCQ.jpg);
+}
+#hobbies h1{
+    padding: 30px 0px;
+    
+    text-align: center;
+    font-size: 40px;
+}
+.hobi{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.hob{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/e1424d64b5b36667aa15fe86f6424438.png);
+    margin: 10px 0px;
+    opacity: 0.78;
+}
+.hob p{
+    font-size: 25px;
+    color: white;
+    padding: 20px 20px;
+}
+#contact{
+    background-image: url(../image/light-grey-background-pattern-i1.jpg);
+    padding: 30px 0px ;
+}
+#contact h1{
+    text-align: center;
+    font-size: 30px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0px;
+}
+.con p{
+    font-size: 20px;
+}
+
+@media (min-width : 700px) and (max-width : 900px){
+
+    .hprimary{
+        font-size: 35px;
+    }
+    .hsecondary{
+        font-size: 50px;
+    }
+    .hthird{
+        font-size: 30px;
+    }
+    #about p{
+        font-size: 20px;
+    }
+}
+@media (min-width : 618px) and (max-width : 700px){
+    #home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+    }
+    .hprimary{
+        font-size: 20px;
+    }
+    .hsecondary{
+        font-size: 30px;
+    }
+    .hthird{
+        font-size: 20px;
+    }
+  #home img{
+      width: 250px;
+      height: 350px;
+      margin-top: 30px;
+  }
+  #about p{
+    font-size: 20px;
+}
+#hobbies h1{
+    font-size: 25px;
+}
+#tech h1{
+    font-size: 25px;
+}
+#about h1{
+    font-size: 30px;
+}
+#about h2{
+    font-size: 22px;
+}
+}
+@media (min-width :410px) and (max-width : 618px){
+    #nav ul li a{
+          font-size: 20px;
+          padding: 2px 10px;  
+
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+    }
+    .hprimary{
+        font-size: 20px;
+    }
+    .hsecondary{
+        font-size: 30px;
+    }
+    .hthird{
+        font-size: 20px;
+    }
+  #home img{
+      width: 250px;
+      height: 350px;
+      margin-top: 30px;
+  }
+  #about p{
+    font-size: 20px;
+}
+#hobbies h1{
+    font-size: 25px;
+}
+#tech h1{
+    font-size: 25px;
+}
+#about h1{
+    font-size: 30px;
+}
+#about h2{
+    font-size: 22px;
+}
+.sk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sk1{
+    margin-bottom: 20px;
+}
+.sk2{
+    margin-top: 20px;
+}
+.hob p{
+    font-size: 20px;
+}
+}
+ @media (min-width :359px) and (max-width : 410px){
+    #nav ul li a{
+          font-size: 18px;
+          padding: 2px 8px;  
+
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+    }
+    .hprimary{
+        font-size: 20px;
+    }
+    .hsecondary{
+        font-size: 30px;
+    }
+    .hthird{
+        font-size: 20px;
+    }
+  #home img{
+      width: 250px;
+      height: 350px;
+      margin-top: 30px;
+  }
+  #about p{
+    font-size: 20px;
+}
+#hobbies h1{
+    font-size: 25px;
+}
+#tech h1{
+    font-size: 25px;
+}
+#about h1{
+    font-size: 30px;
+}
+#about h2{
+    font-size: 22px;
+}
+.sk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sk1{
+    margin-bottom: 20px;
+}
+.sk2{
+    margin-top: 20px;
+}
+.hob p{
+    font-size: 18px;
+}
+} 
+ @media (min-width :280px) and (max-width : 359px){
+    #nav ul li a{
+          font-size: 13px;
+          padding: 2px 5px;  
+
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+    }
+    .hprimary{
+        font-size: 20px;
+    }
+    .hsecondary{
+        font-size: 30px;
+    }
+    .hthird{
+        font-size: 20px;
+    }
+  #home img{
+      width: 250px;
+      height: 350px;
+      margin-top: 30px;
+  }
+  #about p{
+    font-size: 20px;
+}
+#hobbies h1{
+    font-size: 25px;
+}
+#tech h1{
+    font-size: 25px;
+}
+#about h1{
+    font-size: 30px;
+}
+#about h2{
+    font-size: 22px;
+}
+.sk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sk1{
+    margin-bottom: 20px;
+}
+.sk2{
+    margin-top: 20px;
+}
+.hob p{
+    font-size: 18px;
+}
+.con p{
+    font-size: 15px;
+}
+#contact h1{
+    font-size: 25px;
+}
+} 
